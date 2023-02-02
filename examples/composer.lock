@@ -1,0 +1,69 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "1120dd004fbd82d516d5c5161d08b399",
+    "packages": [
+        {
+            "name": "berrydoc/php",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/berrydoc/php.git",
+                "reference": "38dfb64be5b564ce2fc39e2b97f0fcef85ccd9ab"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/berrydoc/php/zipball/38dfb64be5b564ce2fc39e2b97f0fcef85ccd9ab",
+                "reference": "38dfb64be5b564ce2fc39e2b97f0fcef85ccd9ab",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.4|^8.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "BerryDoc\\Php\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Luka",
+                    "email": "info@hudlajf.com"
+                }
+            ],
+            "description": "Package for using document generator",
+            "homepage": "https://github.com/berrydoc/php",
+            "keywords": [
+                "BerryDoc",
+                "php"
+            ],
+            "support": {
+                "issues": "https://github.com/berrydoc/php/issues",
+                "source": "https://github.com/berrydoc/php/tree/v1.0.0"
+            },
+            "time": "2023-02-24T11:17:05+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.4|^8.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}

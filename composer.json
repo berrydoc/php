@@ -1,0 +1,40 @@
+{
+  "name": "berrydoc/php",
+  "description": "Package for using document generator",
+  "keywords": [
+    "BerryDoc",
+    "php"
+  ],
+  "homepage": "https://github.com/berrydoc/php",
+  "license": "MIT",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Luka",
+      "email": "info@hudlajf.com"
+    }
+  ],
+  "require": {
+    "php": "^7.4|^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^9.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "BerryDoc\\Php\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "BerryDoc\\Php\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "vendor/bin/phpunit",
+    "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+  },
+  "config": {
+    "sort-packages": true
+  }
+}
